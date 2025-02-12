@@ -1,0 +1,111 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); */
+
+/* @font-face {
+    font-family: "Great Vibes", serif;
+    src: url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+@import "../background.js";
+
+body {
+    /* background-color: #d14f3e; */
+    background-color:#d14f3e;
+}
+
+img {
+    width: 50%;
+    align-self: center;
+}
+
+.heading {
+    font-family: "Great Vibes", serif;
+    font-size: 104px;
+    color: #e5e8a1;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    border-width: 0px;
+    margin-top: 40px;
+}
+
+h2 {
+    color: #e2d188;
+    font-family: "Lora", bold;
+    font-weight: 100;
+    font-size: 36px;
+    margin-left: 22px;
+    font-weight: 800;
+}
+
+h3 {
+    color: #e2d188;
+    font-family: "Anton";
+    font-weight: 100;
+    font-size: 18px;
+    margin-left: 22px;
+    margin-top: -120px;
+}
+
+p {
+    color: #e5e8a1;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 22px;
+    word-wrap: break-word;
+    max-width: 80%;
+}
+
+div.center {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+figcaption {
+    font-family: "Lora";
+    font-size: 20px;
+    font-weight: 500;
+    color: #e5e8a1;
+    margin-top: 10px;
+}
+
+fieldset {
+    margin-bottom: 12px;
+}
+
+legend {
+    font-family: "Anton";
+    font-weight: lighter;
+    color: #e5e8a1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Anton";
+    font-weight: lighter;
+    color: #e5e8a1;
+}
+
+.red {
+    /* Debug purposes */
+    background-color: red;
+}
+
+.green {
+    /* Debug purposes */
+    background-color: green;
+}
+
+.blue {
+    /* Debug purposes */
+    background-color: blue;
+}
+
+.check_box {
+    display: table-row;
+}
